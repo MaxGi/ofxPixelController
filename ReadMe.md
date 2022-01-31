@@ -1,7 +1,20 @@
-ofxOPC
+ofxPixelController
 ======
 
-A openFrameworks addon for Open Pixel Control and FadeCandy Server
+A openFrameworks lib for general pixel interfaces. It's based on the great ofxOPC (https://github.com/DHaylock/ofxOPC)
+
+Right now supports:
+OpenPixel control and fadeCandy
+
+In the works (and the reason for a new repo) is changable outputs to:
+Art-Net
+DDP
+TPM2
+...
+
+Developed for with the great wled library in mind. https://kno.wled.ge/
+
+All text below copied from ofxOpc. Might not be up to date but I keep it for now.
 
 ofxOPC is an addon for openFrameworks (v0.9.0+) that allows users to communicate to Neopixel LED units through Fadecandy and open pixel control. Draw graphics to the oF window, place the Neopixel grabber on the screen and the addon collects, encodes and sends the pixel data to the Fadecandy.
 
@@ -24,7 +37,6 @@ Also drop me a line and let me know how you end up using the addon.
 
 ## What the addon includes
 
-- The ofxOPC client class
 - ofxNeoPixelRing
 - ofxNeoPixelStrip
 - ofxNeoPixelGrid
